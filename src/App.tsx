@@ -264,6 +264,15 @@ function App() {
   }, [fixedFg])
 
   const ratioDisplay = result ? result.ratio.toFixed(2) : '—'
+  const ratioColor = result
+    ? result.ratio >= 7
+      ? '#22c55e'
+      : result.ratio >= 4.5
+        ? '#eab308'
+        : result.ratio >= 3
+          ? '#f97316'
+          : '#ef4444'
+    : '#ef4444'
 
   return (
     <div className="app">
@@ -331,7 +340,7 @@ function App() {
         <section className="results-section">
           <span className="ratio-badge">CONTRAST RATIO</span>
           <div className="ratio-display">
-            <span className="ratio-number">{ratioDisplay}</span>
+            <span className="ratio-number" style={{ color: ratioColor }}>{ratioDisplay}</span>
             <span className="ratio-label">: 1</span>
           </div>
 
@@ -339,7 +348,10 @@ function App() {
           <div className="ratio-bar-container">
             <div
               className="ratio-bar-fill"
-              style={{ width: `${Math.min((result ? result.ratio : 1) / 21 * 100, 100)}%` }}
+              style={{
+                width: `${Math.min((result ? result.ratio : 1) / 21 * 100, 100)}%`,
+                background: `linear-gradient(90deg, ${ratioColor}, ${ratioColor}dd)`,
+              }}
             />
             {/* Threshold markers */}
             <div className="ratio-bar-marker" style={{ left: `${(3 / 21) * 100}%` }} title="AA Large: 3:1" />
