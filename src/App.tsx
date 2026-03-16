@@ -408,7 +408,7 @@ function App() {
         <p>
           Built with React &middot; WCAG 2.1 compliant calculations &middot;{' '}
           <a
-            href="https://github.com/kurokuroki1/Contrast-Check"
+            href="https://github.com/kurokuroki1/Check-Contrast"
             target="_blank"
             rel="noopener noreferrer"
           >
