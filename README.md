@@ -13,6 +13,7 @@ A real-time colour contrast accessibility tool built with React. Test any foregr
 ## Demo
 ### Light Mode
 <img width="1202" height="1752" alt="image" src="https://github.com/user-attachments/assets/64037111-f916-4679-ba23-d59c71a20c50" />
+
 ### Dark Mode
 <img width="1012" height="1730" alt="image" src="https://github.com/user-attachments/assets/dee8732f-6be9-495c-aae0-6d0b642afda6" />
 
