@@ -11,8 +11,10 @@ A real-time colour contrast accessibility tool built with React. Test any foregr
 - **Swap & Copy** — Quickly swap foreground/background or copy the full results to your clipboard.
 
 ## Demo
-
-<img width="1142" height="1789" alt="image" src="https://github.com/user-attachments/assets/24757a9b-b455-40f6-bd8f-198e9b3394c9" />
+### Light Mode
+<img width="1202" height="1752" alt="image" src="https://github.com/user-attachments/assets/64037111-f916-4679-ba23-d59c71a20c50" />
+### Dark Mode
+<img width="1012" height="1730" alt="image" src="https://github.com/user-attachments/assets/dee8732f-6be9-495c-aae0-6d0b642afda6" />
 
 
 ## Getting Started
