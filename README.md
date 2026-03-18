@@ -12,7 +12,8 @@ A real-time colour contrast accessibility tool built with React. Test any foregr
 
 ## Demo
 
-> _Add a screenshot or deploy link here._
+<img width="1142" height="1789" alt="image" src="https://github.com/user-attachments/assets/24757a9b-b455-40f6-bd8f-198e9b3394c9" />
+
 
 ## Getting Started
 
@@ -83,5 +84,3 @@ Contrast-Check/
 MIT
 
 ---
-
-Built as a portfolio project to demonstrate frontend development, accessibility awareness, and colour science fundamentals.
